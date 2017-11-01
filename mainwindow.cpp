@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include "opencv2/imgproc/imgproc.hpp"
@@ -44,6 +43,7 @@ void MainWindow::handleButton()
     {
       qDebug() << "selected cameras path : " << pathName.toUtf8();
     }
+
     mostrarPath(pathName);
 
 }
